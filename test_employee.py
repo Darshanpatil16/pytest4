@@ -1,11 +1,9 @@
 from employee import employee_info
-
 def test_employee_info():
-    
     expected_output = (
-        "Employee Name: Bouna\n"
-        "Employee ID: 101\n"
+        "Employee Name: Alice\n"
+        "Employee ID: E1001\n"
         "Department: IT\n"
-        "Salary: 30000"
+        "Salary: 55000"
     )
- assert employee_info("Alice", "e101", "IT", 55000) == expected_output
+    assert employee_info("Alice", "E1001", "IT", 55000) == expected_output
