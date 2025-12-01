@@ -6,9 +6,7 @@ def employee_info(name, emp_id, department, salary):
         f"Salary: {salary}"
     )
     return result
-
 if __name__ == "__main__":
-   
         name = "Alice\n"
         emp_id = "E101\n"
         department = "IT\n"
